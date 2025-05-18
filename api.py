@@ -5,7 +5,7 @@ CORS(app)
 @app.route('/index')
 def index():
     return jsonify({
-        'message' : 'connect successfully !'
+        'message' : 'connect successfully ! welcome to my api'
     })
 
 if __name__ == '__main__':
